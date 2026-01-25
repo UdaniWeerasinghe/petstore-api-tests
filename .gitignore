@@ -1,0 +1,35 @@
+# Compiled class files
+target/
+
+# Log files
+*.log
+
+# IDE files
+.idea/
+*.iml
+.eclipse/
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Allure results
+allure-results/
+allure-report/
+
+# Test outputs
+test-output/
