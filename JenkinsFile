@@ -4,10 +4,10 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/username/sample-repo.git'
+                git url: 'https://github.com/UdaniWeerasinghe/petstore-api-tests.git',
+                    branch: 'master'
             }
         }
-
         stage('Build') {
             steps {
                 echo 'Building project...'
